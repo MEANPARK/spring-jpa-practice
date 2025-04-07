@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn(name = "dtype")
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE) // 싱글 테이블 타입
+@DiscriminatorColumn(name = "dtype") // db에 들어가는 값 지정
 @Getter @Setter
 public abstract class Item {
 
