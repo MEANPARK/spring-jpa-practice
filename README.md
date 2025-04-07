@@ -21,7 +21,7 @@
   -> 서비스가 아닌 도메인에 비즈니스 로직, 생성 메서드 등 개발
 
 # 어노테이션
-@Transactional(readOnly = true)
+## @Transactional(readOnly = true)
 @Transactional
 @RequiredArgsConstructor @Autowired
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
