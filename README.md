@@ -32,3 +32,7 @@
 테스트
 * @SpringBootTest
 * @Transactional
+
+
+# 찾아볼 것
+- @Setter를 안쓰면...
